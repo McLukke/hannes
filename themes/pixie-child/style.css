@@ -45,8 +45,17 @@ Template:    pixie
   color: #F6B836 !important;
 }
 
-.header-navigation {
-  float: right;
+@media (min-width: 992px) {
+  .header-navigation {
+    float: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-navigation {
+    float: none;
+    text-align: center;
+  }
 }
 
 .entry-title {
