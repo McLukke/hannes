@@ -43,10 +43,6 @@ Template:    pixie
   border-top: none;
 }
 
-.side-background, .side-background.active {
-  background: none;
-}
-
 @media (min-width: 992px) {
   .header-section.header-color-black .header-collapse > * {
     border-left: none;
