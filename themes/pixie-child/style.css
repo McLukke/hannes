@@ -47,11 +47,11 @@ Template:    pixie
   }
 }
 
-@media (max-width: 287px) {
+/*@media (max-width: 287px) {
   .header-logo span {
     display: none;
   }
-}
+}*/
 
 .header-navigation.typography-meta {
   font-size: 16px;
