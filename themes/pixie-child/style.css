@@ -30,3 +30,11 @@ Template:    pixie
   position: relative;
   top: -8px;
 }
+
+.header-navigation.typography-meta {
+  font-size: 16px; 
+}
+
+.header-navigation {
+  float: right;
+}
