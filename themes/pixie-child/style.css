@@ -21,4 +21,6 @@ Template:    pixie
 
 .header-logo img {
   display: inline;
+  margin-left: 25px;
+  max-width: 60px;
 }
