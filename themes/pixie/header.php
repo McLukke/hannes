@@ -40,8 +40,9 @@
 					if ( ! empty( $logo ) ) :
 						?><?php echo wp_kses_post( wp_get_attachment_image( $logo , 'full', 0, array( 'alt' => esc_attr( get_bloginfo( 'name' ) ) ) ) ); ?><?php
 					else :
-						?><span><?php echo esc_html( get_bloginfo( 'name' ) ); ?></span><?php
+						?><?php
 					endif; ?>
+					<span><?php echo esc_html( get_bloginfo( 'name' ) ); ?></span>
 				</a>
 				<?php $logo = ob_get_clean();
 
