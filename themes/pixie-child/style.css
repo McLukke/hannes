@@ -14,3 +14,7 @@ Template:    pixie
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+.header-logo {
+  display: block;
+}
