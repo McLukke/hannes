@@ -25,3 +25,8 @@ Template:    pixie
   margin-top: 10px;
   max-width: 60px;
 }
+
+.header-logo span {
+  position: relative;
+  top: -8px;
+}
