@@ -32,7 +32,8 @@ Template:    pixie
 }
 
 .header-navigation.typography-meta {
-  font-size: 16px; 
+  font-size: 16px;
+  color: #F6B836;
 }
 
 .header-navigation {
