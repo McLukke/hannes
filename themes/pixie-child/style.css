@@ -47,6 +47,10 @@ Template:    pixie
   float: right;
 }
 
+.entry-title {
+  text-transform: uppercase;
+}
+
 .footer-section {
   border-top: none;
 }
