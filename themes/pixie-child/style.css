@@ -68,7 +68,8 @@ a.header-collapse-toggle {
 
 @media (max-width: 460px) {
   .header-logo span {
-    font-size: 20px;
+    font-size: 24px;
+    top: -12px;
   }
 }
 
