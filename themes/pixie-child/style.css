@@ -43,7 +43,7 @@ Template:    pixie
   border-top: none;
 }
 
-.side-background {
+.side-background, .side-background.active {
   background-color: none;
 }
 
