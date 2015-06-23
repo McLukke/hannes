@@ -1,0 +1,20 @@
+.customize-control {
+	margin-bottom: 16px;
+}
+.customize-control-description {
+	display: none;
+}
+.customize-control-color .customize-control-description {
+	display: block;
+}
+.tf-number .number-slider {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+p.description {
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.tf-sortable ul li i {
+	min-height: 40px;
+}
