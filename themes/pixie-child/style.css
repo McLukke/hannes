@@ -33,7 +33,10 @@ Template:    pixie
 
 .header-navigation.typography-meta {
   font-size: 16px;
-  color: #F6B836;
+}
+
+.header-section.header-color-black a {
+  color: #33ACE0;
 }
 
 .header-navigation {
