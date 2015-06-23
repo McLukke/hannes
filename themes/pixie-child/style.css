@@ -35,8 +35,12 @@ Template:    pixie
   font-size: 16px;
 }
 
-.header-navigation .header-section.header-color-black a {
+.header-navigation.header-section.header-color-black a {
   color: #33ACE0;
+}
+
+.header-navigation.header-section.header-color-black a:hover {
+  color: #F6B836;
 }
 
 .header-navigation {
