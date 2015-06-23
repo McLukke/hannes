@@ -40,7 +40,7 @@ Template:    pixie
   }
 }
 
-@media (min-width: 288px; max-width: 360px) {
+@media (min-width: 288px and max-width: 360px) {
   .header-logo span {
     font-size: 18px;
     top: -14px;
