@@ -33,6 +33,20 @@ Template:    pixie
   top: -8px;
 }
 
+@media (min-width: 361px and max-width: 460px) {
+  .header-logo span {
+    font-size: 24px;
+    top: -12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-logo span {
+    font-size: 18px;
+    top: -16px;
+  }
+}
+
 .header-navigation.typography-meta {
   font-size: 16px;
 }
@@ -66,12 +80,7 @@ a.header-collapse-toggle {
   }
 }
 
-@media (max-width: 460px) {
-  .header-logo span {
-    font-size: 24px;
-    top: -12px;
-  }
-}
+
 
 .entry-title {
   text-transform: uppercase;
