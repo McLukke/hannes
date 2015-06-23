@@ -40,10 +40,16 @@ Template:    pixie
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 288px; max-width: 360px) {
   .header-logo span {
     font-size: 18px;
-    top: -16px;
+    top: -14px;
+  }
+}
+
+@media (max-width: 287px) {
+  .header-logo span {
+    display: none;
   }
 }
 
