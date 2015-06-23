@@ -44,7 +44,7 @@ Template:    pixie
 }
 
 .side-background, .side-background.active {
-  background-color: none;
+  background: none;
 }
 
 @media (min-width: 992px) {
