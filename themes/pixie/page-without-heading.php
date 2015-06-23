@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <style>
-	.entry_header
+	.entry-header
 	{
 		display: none;
 	}
