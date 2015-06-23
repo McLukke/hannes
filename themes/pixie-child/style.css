@@ -39,6 +39,10 @@ Template:    pixie
   float: right;
 }
 
+.footer-section {
+  border-top: none;
+}
+
 @media (min-width: 992px) {
   .header-section.header-color-black .header-collapse > * {
     border-left: none;
