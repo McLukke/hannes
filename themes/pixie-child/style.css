@@ -38,3 +38,9 @@ Template:    pixie
 .header-navigation {
   float: right;
 }
+
+@media (min-width: 992px) {
+  .header-section.header-color-black .header-collapse > * {
+    border-left: none;
+  }
+}
