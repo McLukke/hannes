@@ -18,3 +18,7 @@ Template:    pixie
 .header-logo {
   display: table-row;
 }
+
+.header-logo img {
+  display: inline;
+}
