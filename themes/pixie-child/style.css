@@ -66,6 +66,12 @@ a.header-collapse-toggle {
   }
 }
 
+@media (max-width: 460px) {
+  .header-logo span {
+    font-size: 20px;
+  }
+}
+
 .entry-title {
   text-transform: uppercase;
 }
