@@ -35,12 +35,12 @@ Template:    pixie
   font-size: 16px;
 }
 
-.header-content .header-section.header-color-black a {
-  color: #33ACE0;
+.header-content .header-navigation a {
+  color: #33ACE0 !important;
 }
 
-.header-content .header-section.header-color-black a:hover, .header-content .header-section.header-color-black a:active {
-  color: #F6B836;
+.header-content .header-navigation a:hover, .header-content .header-navigation a:active {
+  color: #F6B836 !important;
 }
 
 .header-navigation {
