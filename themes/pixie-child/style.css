@@ -74,7 +74,7 @@ a.header-collapse-toggle {
 }
 
 .side-background {
-  background-color: none;
+  background-color: initial;
 }
 
 @media (min-width: 992px) {
