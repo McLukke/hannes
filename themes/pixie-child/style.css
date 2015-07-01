@@ -73,6 +73,10 @@ a.header-collapse-toggle {
   color: #F6B836 !important;
 }
 
+.side-background {
+  background-color: none;
+}
+
 @media (min-width: 992px) {
   .header-navigation {
     float: right;
