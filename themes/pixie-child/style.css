@@ -92,6 +92,9 @@ a.header-collapse-toggle {
     float: none;
     text-align: center;
   }
+  .entry-featured-side-background .side-background {
+    margin-top: -70px;
+  }
 }
 
 
