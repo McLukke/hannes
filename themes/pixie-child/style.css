@@ -97,11 +97,13 @@ a.header-collapse-toggle {
     text-align: center;
   }
   .entry-featured-side-background .side-background {
-    margin-top: -70px;
+    /*
+      margin-top: -70px;
+    */
   }
 
   article .side-background-image img {
-    top: 25% !important;
+    top: 20% !important;
   }
 }
 
