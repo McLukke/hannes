@@ -99,6 +99,10 @@ a.header-collapse-toggle {
   .entry-featured-side-background .side-background {
     margin-top: -70px;
   }
+
+  article .side-background-image img {
+    top: 75% !important;
+  }
 }
 
 
