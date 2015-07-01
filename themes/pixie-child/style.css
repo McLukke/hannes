@@ -73,7 +73,7 @@ a.header-collapse-toggle {
   color: #F6B836 !important;
 }
 
-.side-background {
+.side-background, #content {
   background-color: initial;
 }
 
