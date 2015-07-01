@@ -96,6 +96,10 @@ a.header-collapse-toggle {
   border-top: none;
 }
 
+footer {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .header-section.header-color-black .header-collapse > * {
     border-left: none;
