@@ -81,6 +81,10 @@ a.header-collapse-toggle {
   article {
     min-height: 100vh;
   }
+
+  article .side-background-image img {
+    top: 8% !important;
+  }
 }
 
 @media (max-width: 991px) {
