@@ -23,7 +23,7 @@ function vuzzu_sbm_load_background_manager_style() {
 
 		<style type="text/css">
 
-		body {
+		article.page {
 			<?php if($bg_color) echo "background-color: {$bg_color} !important;"; ?>
 			<?php if($bg_img) echo "background-image: url({$bg_img}) !important;"; ?>
 			<?php echo ($bg_img_repeat) ? "background-repeat: {$bg_img_repeat} !important;" : "background-repeat:no-repeat;"; ?>
