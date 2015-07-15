@@ -1,0 +1,224 @@
+/*
+Theme Name:  Pixie-Child
+Theme URI:   http://design.davidrozando.com/?demo=pixie-wp
+Description: A Modern Blog Theme for Creatives
+Author:      David Rozando
+Author URI:  http://davidrozando.com/
+Version:     1.0.0
+License:     GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags:        white, light, two-columns, fixed-layout, custom-menu, editor-style, featured-images, translation-ready
+Text Domain: pixie
+Template:    pixie
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/*Kennington Inputs*/
+.header-content {
+  width: auto;
+}
+
+/*changed from table-row*/
+.header-logo {
+  display: table-cell;
+  padding: 0px;
+}
+
+/*resize header fonts from 992px to 1180px*/
+
+/*keeping everything else the same as before*/
+.header-navigation.typography-meta {
+  font-size: 16px;
+}
+
+@media (min-width: 1181px) {
+  .header-navigation li {
+    padding: 25px 15px;
+  }
+}
+
+/*change menu padding from 25px 15px*/
+@media (min-width: 992px) and (max-width: 1180px) {
+  .header-navigation li {
+    padding: 30px 10px;
+  }
+}
+
+/*decrease menu font from 16px*/
+@media (min-width: 1121px) and (max-width: 1180px) {
+  .header-navigation.typography-meta {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1121px) {
+  .header-navigation.typography-meta {
+    font-size: 12px;
+  }
+}
+
+/*
+  1) image fading from 0.8s to 0.6s
+  2) reduce image flickering by activating GPU
+  3) also added setTimeout in JS on ease in&out
+*/
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.side-background, .side-background.active {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-perspective: 1000;
+  perspective: 1000;
+
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  -webkit-transition: all 0.6s ease-in-out 0;
+  -moz-transition: all 0.6s ease-in-out 0;
+  -o-transition: all 0.6s ease-in-out 0;
+  transition: all 0.6s ease-in-out 0;
+}
+
+/*centering WP Booking Calendar*/
+#booking_form1 {
+  width: 48%;
+  margin: auto;
+  min-width: 284px;
+}
+
+#booking_form_div1 {
+  top: 0;
+  left: 50%;
+}
+
+.controls > input[type='text'], #details1 {
+  width: 100%;
+}
+
+/*removes Powered by Booking Calendar*/
+#booking_form1>#booking_form_div1>div:nth-child(2) {
+  display: none;
+}
+
+
+
+
+.header-logo img {
+  display: inline;
+  margin-left: 25px;
+  margin-top: 10px;
+  max-width: 60px;
+}
+
+.header-logo span {
+  position: relative;
+  top: -8px;
+}
+
+@media (min-width: 361px) and (max-width: 460px) {
+  .header-logo span {
+    font-size: 24px;
+    top: -12px;
+  }
+}
+
+@media (min-width: 288px) and (max-width: 360px) {
+  .header-logo span {
+    font-size: 18px;
+    top: -14px;
+  }
+}
+
+@media (max-width: 287px) {
+  .header-logo span {
+    display: none;
+  }
+}
+
+a.header-collapse-toggle {
+  border-left: none;
+}
+
+.header-collapse {
+  border-top: none;
+}
+
+.header-content .header-navigation a {
+  color: #33ACE0 !important;
+}
+
+.header-content .header-navigation a:hover, .header-content .header-navigation a:active {
+  color: #F6B836 !important;
+}
+
+.side-background, #content {
+  background-color: initial;
+}
+
+@media (min-width: 992px) {
+  .header-navigation {
+    float: right;
+  }
+
+  article {
+    min-height: 100vh;
+  }
+
+  article .side-background-image img {
+    /*top: 5% !important;*/
+  }
+}
+
+@media (max-width: 991px) {
+  .header-navigation {
+    float: none;
+    text-align: center;
+  }
+  .entry-featured-side-background .side-background {
+    /*
+      margin-top: -70px;
+    */
+  }
+
+  article .side-background-image img {
+    top: 20% !important;
+  }
+}
+
+.entry-title {
+  text-transform: uppercase;
+}
+
+.footer-section {
+  border-top: none;
+}
+
+footer {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .header-section.header-color-black .header-collapse > * {
+    border-left: none;
+  }
+}

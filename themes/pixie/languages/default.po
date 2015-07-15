@@ -1,0 +1,988 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pixie\n"
+"POT-Creation-Date: 2015-06-10 18:16+0700\n"
+"PO-Revision-Date: 2015-06-10 18:16+0700\n"
+"Last-Translator: David Rozando <david.rozando@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: 404.php:10
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:11
+#, php-format
+msgid ""
+"The page you are requesting does not exists, please go back to <a href=\"%s"
+"\">home page</a>, or try using our search feature."
+msgstr ""
+
+#: comment.php:9
+msgid "Pingback:"
+msgstr ""
+
+#: comment.php:24
+msgid "(Author)"
+msgstr ""
+
+#: comment.php:29
+#, php-format
+msgid "%s at %s"
+msgstr ""
+
+#: comment.php:33
+msgid "Reply"
+msgstr ""
+
+#: comment.php:44
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:13
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:14
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "&laquo; Newer Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Older Comments &raquo;"
+msgstr ""
+
+#: comments.php:43
+msgid "Name"
+msgstr ""
+
+#: comments.php:49
+msgid "Email"
+msgstr ""
+
+#: comments.php:55
+msgid "Website"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:70
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:85
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:87
+msgid "/ Cancel Reply"
+msgstr ""
+
+#: comments.php:88
+msgid "Post Comment"
+msgstr ""
+
+#: content-none.php:6
+msgid "No Posts Found"
+msgstr ""
+
+#: content-page.php:49 content.php:172
+msgid "Pages: "
+msgstr ""
+
+#: content-page.php:55 content.php:178
+msgid "Next Page"
+msgstr ""
+
+#: content-page.php:56 content.php:179
+msgid "Previous page"
+msgstr ""
+
+#: content-search.php:38 content.php:18 single-portfolio.php:33
+msgid "Edit"
+msgstr ""
+
+#: content.php:5 functions-kirki.php:281
+msgid "Sticky Post"
+msgstr ""
+
+#: content.php:187
+msgid "Paged Post Navigation"
+msgstr ""
+
+#: content.php:198
+msgid "Tagged in"
+msgstr ""
+
+#: content.php:207
+msgid "Share this post"
+msgstr ""
+
+#: functions-kirki.php:10
+msgid "Facebook"
+msgstr ""
+
+#: functions-kirki.php:11
+msgid "Twitter"
+msgstr ""
+
+#: functions-kirki.php:12
+msgid "Instagram"
+msgstr ""
+
+#: functions-kirki.php:13
+msgid "Pinterest"
+msgstr ""
+
+#: functions-kirki.php:14
+msgid "Google Plus"
+msgstr ""
+
+#: functions-kirki.php:15
+msgid "Dribbble"
+msgstr ""
+
+#: functions-kirki.php:16
+msgid "Behance"
+msgstr ""
+
+#: functions-kirki.php:21
+msgid "-- Select --"
+msgstr ""
+
+#: functions-kirki.php:38
+msgid "Styles"
+msgstr ""
+
+#: functions-kirki.php:43
+msgid "Header"
+msgstr ""
+
+#: functions-kirki.php:48
+msgid "Side Background"
+msgstr ""
+
+#: functions-kirki.php:53
+msgid "Footer"
+msgstr ""
+
+#: functions-kirki.php:58
+msgid "Blog"
+msgstr ""
+
+#: functions-kirki.php:63 single-portfolio.php:30
+msgid "Portfolio"
+msgstr ""
+
+#: functions-kirki.php:65
+msgid ""
+"Make sure you already install \"Zilla Portfolio\" plugin, and create "
+"portfolio posts. To create the portfolio archive page: Create a New Page, "
+"change the \"Page template\" to \"Portfolio Archive\". That page should "
+"display all your portfolio posts below the text content."
+msgstr ""
+
+#: functions-kirki.php:69
+msgid "Resume"
+msgstr ""
+
+#: functions-kirki.php:71
+msgid ""
+"Make sure you already install \"Resume Builder\" plugin, and create a resume "
+"(or modify the sample resume provided). And then, Create a New Page, change "
+"the \"Page template\" to \"Resume\". Choose your default resume."
+msgstr ""
+
+#: functions-kirki.php:75
+msgid "Contact"
+msgstr ""
+
+#: functions-kirki.php:80
+msgid "Social Media"
+msgstr ""
+
+#: functions-kirki.php:85
+msgid "Custom Scripts"
+msgstr ""
+
+#: functions-kirki.php:104
+msgid "Accent Color"
+msgstr ""
+
+#: functions-kirki.php:105
+msgid "Used for links"
+msgstr ""
+
+#: functions-kirki.php:112
+msgid "Primary Font"
+msgstr ""
+
+#: functions-kirki.php:113
+msgid "For normal paragraph text"
+msgstr ""
+
+#: functions-kirki.php:121
+msgid "Primary Font Subsets"
+msgstr ""
+
+#: functions-kirki.php:129
+msgid "Secondary Font"
+msgstr ""
+
+#: functions-kirki.php:130
+msgid "For headings and other minor elements"
+msgstr ""
+
+#: functions-kirki.php:138
+msgid "Secondary Font Subsets"
+msgstr ""
+
+#: functions-kirki.php:148
+msgid "Header Color"
+msgstr ""
+
+#: functions-kirki.php:150
+msgid "White"
+msgstr ""
+
+#: functions-kirki.php:151
+msgid "Black"
+msgstr ""
+
+#: functions-kirki.php:159
+msgid "Logo"
+msgstr ""
+
+#: functions-kirki.php:160
+msgid "Maximum height 40px"
+msgstr ""
+
+#: functions-kirki.php:167
+msgid "Show Search Bar"
+msgstr ""
+
+#: functions-kirki.php:174 functions-kirki.php:248
+msgid "Show Social Media Links"
+msgstr ""
+
+#: functions-kirki.php:183
+msgid "Position"
+msgstr ""
+
+#: functions-kirki.php:185
+msgid "Left"
+msgstr ""
+
+#: functions-kirki.php:186
+msgid "Right"
+msgstr ""
+
+#: functions-kirki.php:194
+msgid "Width"
+msgstr ""
+
+#: functions-kirki.php:206
+msgid "Black Overlay Opacity"
+msgstr ""
+
+#: functions-kirki.php:218
+msgid "Black Overlay Opacity for Posts with Addon"
+msgstr ""
+
+#: functions-kirki.php:219
+msgid "For Gallery / Audio / Video post format"
+msgstr ""
+
+#: functions-kirki.php:231
+msgid "Image: Search Results Page"
+msgstr ""
+
+#: functions-kirki.php:232
+msgid "Background Image used for the search results page."
+msgstr ""
+
+#: functions-kirki.php:241
+msgid "Show Widgets Area (2 columns)"
+msgstr ""
+
+#: functions-kirki.php:255
+msgid "Copyright Text"
+msgstr ""
+
+#: functions-kirki.php:264
+msgid "Home Intro Heading"
+msgstr ""
+
+#: functions-kirki.php:271
+msgid "Home Intro Text"
+msgstr ""
+
+#: functions-kirki.php:272
+msgid ""
+"You can use HTML tags, double line break will be automatically converted to "
+"paragraphs"
+msgstr ""
+
+#: functions-kirki.php:279
+msgid "Sticky Post Badge Text"
+msgstr ""
+
+#: functions-kirki.php:280
+msgid "Title (when hovered) of the green star badge on top right of the post"
+msgstr ""
+
+#: functions-kirki.php:287
+msgid "Read More Text"
+msgstr ""
+
+#: functions-kirki.php:288
+msgid ""
+"Change \"read more\" text in index / archive page. How to cut your post with "
+"\"read more\": <a href=\"https://en.support.wordpress.com/splitting-content/"
+"more-tag/\">here</a> "
+msgstr ""
+
+#: functions-kirki.php:289 functions.php:347
+msgid "Read More"
+msgstr ""
+
+#: functions-kirki.php:295
+msgid "Show Tags (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:302
+msgid "Show Author Bio (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:303
+msgid "You must fill \"Biographical Info\" in Your Profile Settings"
+msgstr ""
+
+#: functions-kirki.php:310
+msgid "Show Author Social (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:311
+msgid "You must fill \"Contact Info\" in Your Profile Settings"
+msgstr ""
+
+#: functions-kirki.php:318
+msgid "Show Social Share (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:325
+msgid "Show Prev/Next Post Link (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:332
+msgid "Show Related Posts (Below Content)"
+msgstr ""
+
+#: functions-kirki.php:333
+msgid "Select 0 to disable"
+msgstr ""
+
+#: functions-kirki.php:347
+msgid "Archive Footer Text"
+msgstr ""
+
+#: functions-kirki.php:348
+msgid "Call to Action text"
+msgstr ""
+
+#: functions-kirki.php:355
+msgid "Archive Footer Button URL"
+msgstr ""
+
+#: functions-kirki.php:362
+msgid "Archive Footer Button Text"
+msgstr ""
+
+#: functions-kirki.php:371
+msgid "Choose The Default Resume"
+msgstr ""
+
+#: functions-kirki.php:372
+msgid ""
+"All content in the page editor will be ignored and will display this Default "
+"Resume content instead"
+msgstr ""
+
+#: functions-kirki.php:382
+msgid "Map Locations (Latitude, Longitude)"
+msgstr ""
+
+#: functions-kirki.php:383
+msgid ""
+"You can input as many pin as you want, but ideally you only input 1-5 pins "
+"to the map. Format:\n"
+"lat_1|lon_1|text_1|custom_icon_1\n"
+"lat_2|lon_2|text_2|custom_icon_2\n"
+"lat_3|lon_3|text_3|custom_icon_3"
+msgstr ""
+
+#: functions-kirki.php:390
+msgid "Show Map Pin Marker"
+msgstr ""
+
+#: functions-kirki.php:391
+msgid ""
+"Display map pin marker on each defined locations, will use default google "
+"maps pin marker image if no custom icon URL set in the location (defined "
+"above)"
+msgstr ""
+
+#: functions-kirki.php:398
+msgid "Zoom Level"
+msgstr ""
+
+#: functions-kirki.php:410
+msgid "Map Style JSON"
+msgstr ""
+
+#: functions-kirki.php:411
+msgid ""
+"Custom style JSON. You can create your own or paste the one you like from "
+"http://snazzymaps.com/"
+msgstr ""
+
+#: functions-kirki.php:420
+msgid "Select Active Links"
+msgstr ""
+
+#: functions-kirki.php:442
+msgid "Custom CSS"
+msgstr ""
+
+#: functions-zilla-portfolio.php:31
+msgid "Date: "
+msgstr ""
+
+#: functions-zilla-portfolio.php:34
+msgid "URL: "
+msgstr ""
+
+#: functions-zilla-portfolio.php:37
+msgid "Client: "
+msgstr ""
+
+#: functions.php:101 modules/class-tgm-plugin-activation.php:303
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:102 modules/class-tgm-plugin-activation.php:304
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:103 modules/class-tgm-plugin-activation.php:305
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:104 modules/class-tgm-plugin-activation.php:306
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:115 modules/class-tgm-plugin-activation.php:368
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:116 modules/class-tgm-plugin-activation.php:370
+#: modules/class-tgm-plugin-activation.php:2994
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:117
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:262
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:288
+#, php-format
+msgid "Footer Widgets Area %s"
+msgstr ""
+
+#: functions.php:306
+msgid "Header Navigation"
+msgstr ""
+
+#: functions.php:315
+msgid "Facebook Username"
+msgstr ""
+
+#: functions.php:316
+msgid "Twitter Username (without @)"
+msgstr ""
+
+#: functions.php:317
+msgid "Instagram Username"
+msgstr ""
+
+#: functions.php:318
+msgid "Pinterest Username"
+msgstr ""
+
+#: functions.php:319
+msgid "Google Plus ID"
+msgstr ""
+
+#: functions.php:320
+msgid "Dribbble Username"
+msgstr ""
+
+#: functions.php:321
+msgid "Behance Username"
+msgstr ""
+
+#: functions.php:349
+msgid "0"
+msgstr ""
+
+#: functions.php:349
+msgid "1"
+msgstr ""
+
+#: functions.php:349
+msgid "%"
+msgstr ""
+
+#: functions.php:369 header.php:64
+msgid "Search on this site"
+msgstr ""
+
+#: functions.php:371 header.php:66
+msgid "Search"
+msgstr ""
+
+#: index.php:12
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: index.php:13 index.php:101
+#, php-format
+msgid " &mdash; Page %s"
+msgstr ""
+
+#: index.php:40 search.php:25
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: index.php:43
+#, php-format
+msgid "Posts in \"%s\" Category"
+msgstr ""
+
+#: index.php:46
+#, php-format
+msgid "Posts tagged \"%s\""
+msgstr ""
+
+#: index.php:49
+#, php-format
+msgid "Postst by \"%s\""
+msgstr ""
+
+#: index.php:52
+#, php-format
+msgid "Posts published in \"%s\""
+msgstr ""
+
+#: index.php:52
+msgid "Y"
+msgstr ""
+
+#: index.php:55
+#, php-format
+msgid "Posts published on \"%s\""
+msgstr ""
+
+#: index.php:55
+msgid "F Y"
+msgstr ""
+
+#: index.php:58
+#, php-format
+msgid "Posts published at \"%s\""
+msgstr ""
+
+#: index.php:58
+msgid "F j, Y"
+msgstr ""
+
+#: index.php:62
+msgid "Aside Posts"
+msgstr ""
+
+#: index.php:65
+msgid "Gallery Posts"
+msgstr ""
+
+#: index.php:68
+msgid "Image Posts"
+msgstr ""
+
+#: index.php:71
+msgid "Video Posts"
+msgstr ""
+
+#: index.php:74
+msgid "Quote Posts"
+msgstr ""
+
+#: index.php:77
+msgid "Link Posts"
+msgstr ""
+
+#: index.php:80
+msgid "Status Posts"
+msgstr ""
+
+#: index.php:83
+msgid "Audio Posts"
+msgstr ""
+
+#: index.php:86
+msgid "Chat Posts"
+msgstr ""
+
+#: index.php:90
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: index.php:95
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: index.php:98
+msgid "Archives"
+msgstr ""
+
+#: index.php:130 search.php:39
+msgid "Previous Posts"
+msgstr ""
+
+#: index.php:131 search.php:40
+msgid "Next Posts"
+msgstr ""
+
+#: index.php:136 search.php:45
+msgid "Posts Navigation"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:369
+msgid "Return to the dashboard"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:371
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:373
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:375
+msgid "Dismiss this notice"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:376
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2173
+msgid "Required"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2176
+msgid "Recommended"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2193
+msgid "WordPress Repository"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2197
+msgid "External Source"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2201
+msgid "Pre-Packaged"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2220
+msgid "Not Installed"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2224
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2226
+msgid "Active"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2232
+msgid "Required Update not Available"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2235
+msgid "Requires Update"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2238
+msgid "Update recommended"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2246
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2400
+msgid "unknown"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2408
+msgid "Installed version:"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2416
+msgid "Minimum required version:"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2428
+msgid "Available version:"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2452
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2468
+msgid "Plugin"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2469
+msgid "Source"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2470
+msgid "Type"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2474
+msgid "Version"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2475
+msgid "Status"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2499
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2505
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2511
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2602
+msgid "Install"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2608
+msgid "Update"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2611
+msgid "Activate"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2672
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2674
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:2993
+msgid "Plugin activation failed."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3332
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3336
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3337
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3341
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3342
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3343
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3344
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3348
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3350
+msgid "All installations have been completed."
+msgstr ""
+
+#: modules/class-tgm-plugin-activation.php:3351
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: related.php:30
+msgid "Related Posts"
+msgstr ""
+
+#: single.php:17
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:18
+msgid "Next Post"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:8
+msgid "Pixie: About Me"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:9
+msgid "About Me with image"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:57
+#: widgets/class-pixie-widget-random-posts.php:88
+#: widgets/class-pixie-widget-recent-posts.php:87
+msgid "Title:"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:61
+msgid "Image URL"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:65
+msgid "Text"
+msgstr ""
+
+#: widgets/class-pixie-widget-about-me.php:69
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: widgets/class-pixie-widget-random-posts.php:8
+msgid "Pixie: Random Posts"
+msgstr ""
+
+#: widgets/class-pixie-widget-random-posts.php:9
+msgid "Random Posts list with thumbnail images"
+msgstr ""
+
+#: widgets/class-pixie-widget-random-posts.php:92
+#: widgets/class-pixie-widget-recent-posts.php:91
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/class-pixie-widget-random-posts.php:98
+#: widgets/class-pixie-widget-recent-posts.php:97
+msgid "Display post date?"
+msgstr ""
+
+#: widgets/class-pixie-widget-recent-posts.php:8
+msgid "Pixie: Recent Posts"
+msgstr ""
+
+#: widgets/class-pixie-widget-recent-posts.php:9
+msgid "Recent Posts list with thumbnail images"
+msgstr ""
