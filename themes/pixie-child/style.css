@@ -27,7 +27,6 @@ Template:    pixie
 }
 
 /*resize header fonts from 992px to 1180px*/
-
 /*keeping everything else the same as before*/
 .header-navigation.typography-meta {
   font-size: 16px;
@@ -40,22 +39,28 @@ Template:    pixie
 }
 
 /*change menu padding from 25px 15px*/
-@media (min-width: 992px) and (max-width: 1180px) {
+/*decrease menu font from 16px*/
+@media (min-width: 1121px) and (max-width: 1180px) {
   .header-navigation li {
     padding: 30px 10px;
   }
-}
 
-/*decrease menu font from 16px*/
-@media (min-width: 1121px) and (max-width: 1180px) {
   .header-navigation.typography-meta {
     font-size: 14px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1121px) {
+  .header-navigation li {
+    padding: 30px 10px;
+  }
+
   .header-navigation.typography-meta {
     font-size: 12px;
+  }
+
+  .side-background-image img {
+    background: center !important;
   }
 }
 
@@ -93,10 +98,10 @@ body {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 
-  -webkit-transition: all 0.6s ease-in-out 0;
-  -moz-transition: all 0.6s ease-in-out 0;
-  -o-transition: all 0.6s ease-in-out 0;
-  transition: all 0.6s ease-in-out 0;
+  -webkit-transition: opacity 0.6s ease-in-out 0;
+  -moz-transition: opacity 0.6s ease-in-out 0;
+  -o-transition: opacity 0.6s ease-in-out 0;
+  transition: opacity 0.6s ease-in-out 0;
 }
 
 /*centering WP Booking Calendar*/
