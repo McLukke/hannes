@@ -14,7 +14,6 @@ Template:    pixie
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-
 /*Kennington Inputs*/
 .header-content {
   width: auto;
@@ -24,6 +23,10 @@ Template:    pixie
 .header-logo {
   display: table-cell;
   padding: 0px;
+}
+
+body.category .page-heading {
+  display: none !important;
 }
 
 /*resize header fonts from 992px to 1180px*/
@@ -69,11 +72,20 @@ Template:    pixie
   2) reduce image flickering by activating GPU
   3) also added setTimeout in JS on ease in&out
 */
-body {
+/*body {
   -webkit-font-smoothing: antialiased;
-}
+}*/
 
-.side-background, .side-background.active {
+/*.fastActive {
+
+
+-webkit-transition: opacity 0.4s ease-in 0.4s step-end;
+-moz-transition: opacity 0.4s ease-in 0.4s step-end;
+-ms-transition: opacity 0.4s ease-in 0.4s step-end;
+transition: opacity 0.4s ease-in 0.4s step-end;
+  }
+*/
+/*.side-background {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
@@ -102,7 +114,7 @@ body {
   -moz-transition: opacity 0.6s ease-in-out 0;
   -o-transition: opacity 0.6s ease-in-out 0;
   transition: opacity 0.6s ease-in-out 0;
-}
+}*/
 
 /*centering WP Booking Calendar*/
 #booking_form1 {

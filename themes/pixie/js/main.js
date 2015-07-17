@@ -197,17 +197,15 @@
 						var $target = $( $( this.element ).data( 'target' ) );
 
 						if ( $target.length < 1 ) return;
-
-							setTimeout( function () {
-								$( '.side-background' ).removeClass( 'active' );
-								$( '.post' ).removeClass( 'active' );
-							}, 150 );
-
-							setTimeout( function () {
+							$( '.post.active' ).removeClass( 'active' );
+							$( '.side-background.active' ).removeClass( 'active' );
+							
+							setTimeout(function(){
 								$target.addClass( 'active' );
 								$target.parents( '.post' ).addClass( 'active' );
-							}, 150 );
-						}
+							},0);
+							
+					}
 					else if ( direction == 'up' ) {
 						var prev = this.previous(),
 						    $target;
@@ -216,16 +214,16 @@
 							$target = $( $( prev.element ).data( 'target' ) );
 
 							if ( $target.length < 1 ) return;
+							$( '.post.active' ).removeClass( 'active' );
+							$( '.side-background.active' ).removeClass( 'active' );
+							
 
-							setTimeout( function () {
-								$( '.side-background' ).removeClass( 'active' );
-								$( '.post' ).removeClass( 'active' );
-							}, 150 );
 
-							setTimeout( function () {
+							setTimeout(function(){
 								$target.addClass( 'active' );
 								$target.parents( '.post' ).addClass( 'active' );
-							}, 150 );
+							},0);
+							
 						}
 					}
 
@@ -244,9 +242,7 @@
 		}
 
 		if ( $( '.side-background.active' ).length < 1 ) {
-			setTimeout( function () {
-				$( '.side-background' ).first().addClass( 'active' );
-			}, 150);
+			$( '.side-background' ).first().addClass( 'active' );
 		}
 
 		/**
