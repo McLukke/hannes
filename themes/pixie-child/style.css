@@ -26,7 +26,15 @@ Template:    pixie
 }
 
 body.category .page-heading {
-  display: none !important;
+  height: 0;
+  max-height: 0;
+  padding: 0;
+  visibility: hidden;
+  border: none;
+}
+
+body.category .typography-page-heading {
+  margin: 0;
 }
 
 /*resize header fonts from 992px to 1180px*/
@@ -39,6 +47,9 @@ body.category .page-heading {
   .header-navigation li {
     padding: 25px 15px;
   }
+}
+
+@media (max-width: 991px) {
 }
 
 /*change menu padding from 25px 15px*/
@@ -66,6 +77,8 @@ body.category .page-heading {
     background: center !important;
   }
 }
+
+
 
 /*
   1) image fading from 0.8s to 0.6s
