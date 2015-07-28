@@ -15,6 +15,25 @@ Template:    pixie
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 /*Kennington Inputs*/
+#mainPageBookNow {
+  color: #E6B836;
+  border: 1px solid #E6B836;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#mainPageBookNow:hover {
+  background-color: #E6B836;
+  transition: all 0.25s ease-in-out;
+  color: #FFFFFF;
+}
+
 .header-content {
   width: auto;
 }
