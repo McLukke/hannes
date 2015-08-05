@@ -36,8 +36,8 @@
 		endwhile; ?>
 
 		<?php // Pagination
-		$prev = get_previous_posts_link( '<span class="fa fa-angle-left"></span>' . __( 'Previous Posts', 'pixie' ) );
-		$next = get_next_posts_link( __( 'Next Posts', 'pixie' ) . '<span class="fa fa-angle-right"></span>' );
+		$prev = get_previous_posts_link( '<span class="fa fa-angle-left"></span>' . __( 'Previous Post', 'pixie' ) );
+		$next = get_next_posts_link( __( 'Next Post', 'pixie' ) . '<span class="fa fa-angle-right"></span>' );
 		?>
 
 		<?php if ( ! empty( $prev ) || ! empty( $next ) ) : ?>

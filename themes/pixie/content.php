@@ -15,7 +15,7 @@
 				<?php printf( '%s / %s', wp_kses_post( get_the_category_list( ', ' ) ), esc_html( get_the_date() ) ); ?>
 				
 				<?php // Edit Link
-				edit_post_link( '<span class="fa fa-pencil"></span> ' . __( 'Edit', 'pixie' ), '<span class="edit-link right">', '</span>' ); ?>
+				edit_post_link( '<span class="fa fa-pencil"></span> ' . __( '', 'pixie' ), '<span class="edit-link right">', '</span>' ); ?>
 
 			</div>
 

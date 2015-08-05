@@ -7,8 +7,8 @@
 		<div class="center-wrapper">
 
 			<div class="typography-content">
-				<h1 class="typography-title"><?php _e( 'Page Not Found', 'pixie' ); ?></h1>
-				<p><?php printf( __( 'The page you are requesting does not exists, please go back to <a href="%s">home page</a>, or try using our search feature.', 'pixie' ), esc_url( home_url() ) ); ?></p>
+				<h1 class="typography-title"><?php _e( 'Siden Blev Ikke Fundet', 'pixie' ); ?></h1>
+				<p><?php printf( __( 'Den side, du anmoder om ikke eksisterer, du gå tilbage til <a href="%s">startside</a>, eller prøv at bruge vores søgefunktion.', 'pixie' ), esc_url( home_url() ) ); ?></p>
 			</div>
 
 		</div>
