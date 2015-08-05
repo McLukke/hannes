@@ -41,10 +41,12 @@ if ( $show_related_posts ) {
 							</a>
 							<a class="post-related-title typography-heading" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 							<span class="post-related-meta typography-meta"><?php
-							setlocale(LC_ALL, array('da_DK.UTF-8', 'da_DK.ISO8859-1', 'da_DA@euro', 'da_DA', 'danish', 'Danish', 'Danish_Denmark'));
-							echo esc_html(strftime('%B %d, %Y', strtotime(get_the_date())));
-							?></span>
+							// setlocale(LC_ALL, array('da_DK.UTF-8', 'da_DK.ISO8859-1', 'da_DA@euro', 'da_DA', 'danish', 'Danish', 'Danish_Denmark'));
+							// echo esc_html(strftime('%B %d, %Y', strtotime(get_the_date())));
 
+							echo esc_html(get_the_date());
+							?></span>
+							
 						</div>
 
 						<?php if ( $i % 2 == 0 ) : ?>

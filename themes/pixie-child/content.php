@@ -13,8 +13,10 @@
 			<div class="entry-meta typography-meta">
 
 				<?php
-				setlocale(LC_ALL, array('da_DK.UTF-8', 'da_DK.ISO8859-1', 'da_DA@euro', 'da_DA', 'danish', 'Danish', 'Danish_Denmark'));
-				printf( '%s / %s', wp_kses_post( get_the_category_list( ', ' ) ), esc_html(strftime('%B %d, %Y', strtotime(get_the_date()))) );
+				// setlocale(LC_ALL, array('da_DK.UTF-8', 'da_DK.ISO8859-1', 'da_DA@euro', 'da_DA', 'danish', 'Danish', 'Danish_Denmark'));
+				// printf( '%s / %s', wp_kses_post( get_the_category_list( ', ' ) ), esc_html(strftime('%B %d, %Y', strtotime(get_the_date()))) );
+
+				echo esc_html(get_the_date());
 				?>
 				
 				<?php // Edit Link
